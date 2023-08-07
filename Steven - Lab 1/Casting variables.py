@@ -1,7 +1,5 @@
-# Input the length of the first side of the rectangle
 length = int(input("Enter the length of the first side of the rectangle: "))
 
-# Input the length of the second side of the rectangle
 width = int(input("Enter the length of the second side of the rectangle: "))
 
 # Calculate the perimeter of the rectangle
