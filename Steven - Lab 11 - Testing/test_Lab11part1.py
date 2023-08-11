@@ -11,7 +11,7 @@ def test_workswithINTEGERS():
     sequence = [0, 1, 2, 3, 4, 5] #Creates a sequence from 0 - 5
     item = 3 # Choosing any no.
     result = count(sequence, item)
-    assert result == 1
+    assert result == 1 # It's only ever going to be '1' = Sum =0
 
 # Write a test that assert whether a list of strings work with this function. 
 
