@@ -1,10 +1,10 @@
+# Read Rows
+
 import pyodbc
 
-connectionString = r'DRIVER={ODBC Driver 13 for SQL Server};SERVER=.\SQLExpress;DATABASE=qastore;Trusted_Connection=yes'
+connectionString= r'DRIVER={ODBC Driver 13 for SQL Server};SERVER=.\SQLExpress;DATABASE=northwind;Trusted_Connection=yes'
 
-# Using WHERE with LIKE
-
-
+sqlStr= " SELECT * FROM customers"
 
 conn = pyodbc.connect(connectionString)
 cur = conn.cursor()
@@ -13,9 +13,10 @@ conn.close()
 
 for row in result:
     print(row)
-# Using WHERE with = 
-sqlStr= " SELECT * FROM company WHERE company_no BETWEEN 100 and 200"
 
+# Read rows with a filter
+
+sqlStr= " SELECT * FROM customers WHERE city='London'"
 
 conn = pyodbc.connect(connectionString)
 cur = conn.cursor()
@@ -24,4 +25,9 @@ conn.close()
 
 for row in result:
     print(row)
+
+
+
+
+
 
