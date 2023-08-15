@@ -1,0 +1,40 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.6.5
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Admin\Source\Repos\svou1502\Python-programming> cd "Steven - Lab 10"
+PS C:\Users\Admin\Source\Repos\svou1502\Python-programming\Steven - Lab 10> pylint Linting.py
+************* Module Linting
+Linting.py:6:14: E0001: Parsing failed: 'unindent does not match any outer indentation level (<unknown>, line 6)' (syntax-error)
+PS C:\Users\Admin\Source\Repos\svou1502\Python-programming\Steven - Lab 10> pylint Linting.py
+************* Module Linting
+Linting.py:1:0: C0114: Missing mo
+
+************* Module Linting
+Linting.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Linting.py:1:0: C0103: Module name "Linting" doesn't conform to snake_case naming style (invalid-name)
+Linting.py:2:4: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+Linting.py:3:8: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Linting.py:5:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+------------------------------------------------------------------
+Your code has been rated at 4.29/10 (previous run: 0.00/10, +4.29)
+
+PS C:\Users\Admin\Source\Repos\svou1502\Python-programming\Steven - Lab 10> pylint Linting_example.py
+Linting_example.py:1:0: C0103: Module name "Linting_example" doesn't conform to snake_case naming style (invalid-name)
+Linting_example.py:2:0: C0116: Missing function or method docstring (missing-function-docstring)
+Linting_example.py:4:8: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.33/10 (previous run: 5.71/10, +2.62)
+
+PS C:\Users\Admin\Source\Repos\svou1502\Python-programming\Steven - Lab 10> pylint linting.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.33/10, +1.67)
+
+-----------------------------------
+
